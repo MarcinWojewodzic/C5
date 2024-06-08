@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MB85RS512TPNF-G-JNERE1
+D F-RAM 512kbit FRAM, SPI, 1.8V 3.6V - SOP8 T&R
+K
+F http://www.fujitsu.com/us/Images/MB85RS512T-DS501-00029-0v01-E.pdf
+$ENDCMP
+#
+#End Doc Library

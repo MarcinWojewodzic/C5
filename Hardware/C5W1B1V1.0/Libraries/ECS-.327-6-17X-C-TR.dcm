@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-.327-6-17X-C-TR
+D Crystals 32.768kHz 6pF -40C +85C
+K
+F https://www.mouser.com/datasheet/2/122/ecx-306x-11191.pdf
+$ENDCMP
+#
+#End Doc Library

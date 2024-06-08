@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name STM32H725ZGT6)(type Legacy)(uri ${KIPRJMOD}/STM32H725ZGT6.lib)(options "")(descr ""))
-  (lib (name C5V1)(type Legacy)(uri ${KIPRJMOD}/C5V1.lib)(options "")(descr ""))
-  (lib (name ISM330ISN)(type Legacy)(uri ${KIPRJMOD}/ISM330ISN.lib)(options "")(descr ""))
-)

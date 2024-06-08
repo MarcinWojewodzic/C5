@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LSM303AHTR
+#/628486/909145/2.50/12/4/Accelerometer
+DEF LSM303AHTR AC 0 30 Y Y 1 F N
+F0 "AC" 1450 300 50 H V L CNN
+F1 "LSM303AHTR" 1450 200 50 H V L CNN
+F2 "LGA-12" 1450 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/LSM303AHTR.pdf" 1450 0 50 H I L CNN
+F4 "Accelerometers Ultra-compact high-performance e-compass 3D accelerometer and 3D magnetometer module" 1450 -100 50 H I L CNN "Description"
+F5 "" 1450 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LSM303AHTR" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-LSM303AHTR" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM303AHTR?qs=FNcb6ahWXRzM34XwAoZA0A%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "LSM303AHTR" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lsm303ahtr/stmicroelectronics?region=nac" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SCL 1 0 0 200 R 50 50 0 0 P
+X CS 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X SDA 4 0 -300 200 R 50 50 0 0 P
+X C1 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 0 -500 200 R 50 50 0 0 P
+X INT_MAG/DRDY 7 1600 0 200 L 50 50 0 0 P
+X GND_2 8 1600 -100 200 L 50 50 0 0 P
+X VDD 9 1600 -200 200 L 50 50 0 0 P
+X VDDIO 10 1600 -300 200 L 50 50 0 0 P
+X INT2_XL 11 1600 -400 200 L 50 50 0 0 P
+X INT1_XL 12 1600 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

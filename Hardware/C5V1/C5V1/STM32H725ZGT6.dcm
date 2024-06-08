@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP STM32H725ZGT6
-D High-performance and DSP with DP-FPU, Arm Cortex-M7 MCU with 1 MByte Flash, 564 KBytes RAM, 550 MHz CPU, L1 cache, external memory interface, SMPS, subset of peripherals
-K
-F https://www.st.com/resource/en/datasheet/stm32h725ag.pdf
-$ENDCMP
-#
-#End Doc Library
