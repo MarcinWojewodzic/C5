@@ -65,54 +65,44 @@ F 3 "" H 6950 4450 50  0001 C CNN
 	1    6950 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 5550 3    50   BiDi ~ 0
-PD10
-Text GLabel 2900 5550 3    50   BiDi ~ 0
-PD8
-Text GLabel 2700 5550 3    50   BiDi ~ 0
-PB14
-Text GLabel 2500 5550 3    50   BiDi ~ 0
-PB12
-Text GLabel 2800 5050 1    50   BiDi ~ 0
-PE12
-Text GLabel 2600 5050 1    50   BiDi ~ 0
-PE14
-Text GLabel 3300 5050 1    50   BiDi ~ 0
-PG1
-Text GLabel 3100 5050 1    50   BiDi ~ 0
-PE8
-Text GLabel 3600 5050 1    50   BiDi ~ 0
-PF15
-Text GLabel 3800 5050 1    50   BiDi ~ 0
-PF13
-Text GLabel 4000 5050 1    50   BiDi ~ 0
-PF11
-Text GLabel 4200 5050 1    50   BiDi ~ 0
-PC4
-Text GLabel 3000 5550 3    50   BiDi ~ 0
-PD9
-Text GLabel 2800 5550 3    50   BiDi ~ 0
-PB15
-Text GLabel 2600 5550 3    50   BiDi ~ 0
-PB13
-Text GLabel 2700 5050 1    50   BiDi ~ 0
-PE13
-Text GLabel 2500 5050 1    50   BiDi ~ 0
-PE15
-Text GLabel 3200 5050 1    50   BiDi ~ 0
-PE7
-Text GLabel 3000 5050 1    50   BiDi ~ 0
-PE9
-Text GLabel 3400 5050 1    50   BiDi ~ 0
-PG0
-Text GLabel 3500 5050 1    50   BiDi ~ 0
-PF14
-Text GLabel 3700 5050 1    50   BiDi ~ 0
-PF12
 Text GLabel 3900 5050 1    50   BiDi ~ 0
-PC5
+PC3
+Text GLabel 4000 5050 1    50   BiDi ~ 0
+PC2
 Text GLabel 4100 5050 1    50   BiDi ~ 0
+PC1
+Text GLabel 4200 5050 1    50   BiDi ~ 0
+PC0
+Text GLabel 3800 5050 1    50   BiDi ~ 0
 PA5
+Text GLabel 3700 5050 1    50   BiDi ~ 0
+PC4
+Text GLabel 3600 5050 1    50   BiDi ~ 0
+PC5
+Text GLabel 3500 5050 1    50   BiDi ~ 0
+PF11
+Text GLabel 3400 5050 1    50   BiDi ~ 0
+PF12
+Text GLabel 3300 5050 1    50   BiDi ~ 0
+PF13
+Text GLabel 3200 5050 1    50   BiDi ~ 0
+PF14
+Text GLabel 3100 5050 1    50   BiDi ~ 0
+PF15
+Text GLabel 3000 5050 1    50   BiDi ~ 0
+PG0
+Text GLabel 2600 5050 1    50   BiDi ~ 0
+PE9
+Text GLabel 2700 5050 1    50   BiDi ~ 0
+PE8
+Text GLabel 2800 5050 1    50   BiDi ~ 0
+PE7
 Text GLabel 2900 5050 1    50   BiDi ~ 0
+PG1
+Text GLabel 2500 5050 1    50   BiDi ~ 0
 PE10
+Text GLabel 2600 5550 3    50   BiDi ~ 0
+PE13
+Text GLabel 2500 5550 3    50   BiDi ~ 0
+PE12
 $EndSCHEMATC

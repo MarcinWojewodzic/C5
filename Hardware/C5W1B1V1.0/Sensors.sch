@@ -699,16 +699,6 @@ F 3 "" H 11250 2100 50  0001 C CNN
 	1    11250 2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 4400 2    50   Input ~ 0
-LSM303_INT2
-Text GLabel 3200 4500 2    50   Input ~ 0
-LSM303_INT1
-Text GLabel 3200 4800 2    50   Input ~ 0
-LSM303_INT_MAG
-Text GLabel 1750 2350 0    50   BiDi ~ 0
-LSM303_SDA
-Text GLabel 1750 2200 0    50   Output ~ 0
-LSM303_SCL
 Wire Wire Line
 	1950 3600 1050 3600
 Wire Wire Line
@@ -737,76 +727,6 @@ F 3 "" H 1050 2850 50  0001 C CNN
 	1    1050 2850
 	1    0    0    -1  
 $EndComp
-Text Label 1600 3500 0    50   ~ 0
-LSM_SCL
-Wire Wire Line
-	1600 3500 1950 3500
-Wire Wire Line
-	1600 3800 1950 3800
-Text Label 1600 3800 0    50   ~ 0
-LSM_SDA
-$Comp
-L Device:R R?
-U 1 1 667DEC1A
-P 2050 1800
-AR Path="/665B4F23/667DEC1A" Ref="R?"  Part="1" 
-AR Path="/665B5071/667DEC1A" Ref="R18"  Part="1" 
-F 0 "R18" V 1843 1800 50  0000 C CNN
-F 1 "10k/5%/0.063W" V 1934 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1980 1800 50  0001 C CNN
-F 3 "~" H 2050 1800 50  0001 C CNN
-	1    2050 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 667E0B7A
-P 2400 1800
-AR Path="/665B4F23/667E0B7A" Ref="R?"  Part="1" 
-AR Path="/665B5071/667E0B7A" Ref="R19"  Part="1" 
-F 0 "R19" V 2193 1800 50  0000 C CNN
-F 1 "10k/5%/0.063W" V 2284 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2330 1800 50  0001 C CNN
-F 3 "~" H 2400 1800 50  0001 C CNN
-	1    2400 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 2200 2400 2200
-Wire Wire Line
-	1750 2350 2050 2350
-Wire Wire Line
-	2050 1950 2050 2350
-Connection ~ 2050 2350
-Wire Wire Line
-	2050 2350 2800 2350
-Wire Wire Line
-	2400 1950 2400 2200
-Connection ~ 2400 2200
-Wire Wire Line
-	2400 2200 2800 2200
-Wire Wire Line
-	2050 1650 2200 1650
-Wire Wire Line
-	2200 1650 2200 1200
-Connection ~ 2200 1650
-Wire Wire Line
-	2200 1650 2400 1650
-$Comp
-L power:+3V3 #PWR0239
-U 1 1 667F099D
-P 2200 1200
-F 0 "#PWR0239" H 2200 1050 50  0001 C CNN
-F 1 "+3V3" H 2215 1373 50  0000 C CNN
-F 2 "" H 2200 1200 50  0001 C CNN
-F 3 "" H 2200 1200 50  0001 C CNN
-	1    2200 1200
-	1    0    0    -1  
-$EndComp
-Text Label 2800 2200 0    50   ~ 0
-LSM_SCL
-Text Label 2800 2350 0    50   ~ 0
-LSM_SDA
 Wire Wire Line
 	15650 3050 15950 3050
 Wire Wire Line
@@ -937,4 +857,8 @@ Text GLabel 18050 1600 2    50   BiDi ~ 0
 BME688_SDA
 Text GLabel 18050 1750 2    50   Input ~ 0
 BME688_SCL
+Text GLabel 1950 3500 0    50   Output ~ 0
+LSM303_SCL
+Text GLabel 1950 3800 0    50   BiDi ~ 0
+LSM303_SDA
 $EndSCHEMATC
