@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LMR62421XSD_NOPB
+#/678199/909145/2.50/7/3/Integrated Circuit
+DEF LMR62421XSD_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LMR62421XSD_NOPB" 1050 200 50 H V L CNN
+F2 "SON95P300X300X80-7N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/LMR62421" 1050 0 50 H I L CNN
+F4 "SIMPLE SWITCHER 2.7V to 5.5V, 24Vout, 2.1A Boost Converter" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LMR62421XSD/NOPB" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-LMR62421XSD/NOPB" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR62421XSD-NOPB?qs=2k4gZbgf%2F9lEIEGkA6otVQ%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "LMR62421XSD/NOPB" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lmr62421xsdnopb/texas-instruments?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X PGND 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X EP 7 600 -700 200 U 50 50 0 0 P
+X SW 6 1200 0 200 L 50 50 0 0 P
+X AGND 5 1200 -100 200 L 50 50 0 0 P
+X FB 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

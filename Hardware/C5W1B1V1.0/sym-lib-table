@@ -13,4 +13,6 @@
   (lib (name USBLC6-2P6)(type Legacy)(uri ${KIPRJMOD}/Libraries/USBLC6-2P6.lib)(options "")(descr ""))
   (lib (name 216990-0003)(type Legacy)(uri ${KIPRJMOD}/Libraries/216990-0003.lib)(options "")(descr ""))
   (lib (name USB4105GFA120)(type Legacy)(uri ${KIPRJMOD}/Libraries/USB4105GFA120.lib)(options "")(descr ""))
+  (lib (name LMR62421XSD_NOPB)(type Legacy)(uri ${KIPRJMOD}/Libraries/LMR62421XSD_NOPB.lib)(options "")(descr ""))
+  (lib (name SRN6045TA-101M)(type Legacy)(uri ${KIPRJMOD}/Libraries/SRN6045TA-101M.lib)(options "")(descr ""))
 )
