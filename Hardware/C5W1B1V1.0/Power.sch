@@ -579,10 +579,6 @@ Wire Wire Line
 	9050 7750 9050 8650
 Connection ~ 9050 7750
 Wire Wire Line
-	8550 7750 9050 7750
-Wire Wire Line
-	7400 7750 7750 7750
-Wire Wire Line
 	7400 8750 7400 7750
 $Comp
 L power:GND #PWR0250
@@ -612,25 +608,6 @@ F 3 "~" H 6000 9050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 8750 6000 8900
-$Comp
-L SRN6045TA-101M:SRN6045TA-101M L2
-U 1 1 6683B75C
-P 7750 7750
-F 0 "L2" H 8150 7975 50  0000 C CNN
-F 1 "SRN6045TA-101M" H 8150 7884 50  0000 C CNN
-F 2 "SRN6045TA220M" H 8400 7800 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf" H 8400 7700 50  0001 L CNN
-F 4 "fixed Inductor 100uH 0.82A Shielded" H 8400 7600 50  0001 L CNN "Description"
-F 5 "4" H 8400 7500 50  0001 L CNN "Height"
-F 6 "Bourns" H 8400 7400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SRN6045TA-101M" H 8400 7300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "652-SRN6045TA-101M" H 8400 7200 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Bourns/SRN6045TA-101M?qs=Vt59ZOdFuWaW81VrtId3eg%3D%3D" H 8400 7100 50  0001 L CNN "Mouser Price/Stock"
-F 10 "SRN6045TA-101M" H 8400 7000 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/srn6045ta-101m/bourns?region=nac" H 8400 6900 50  0001 L CNN "Arrow Price/Stock"
-	1    7750 7750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0249
 U 1 1 6683B74E
@@ -807,4 +784,19 @@ Wire Wire Line
 	11400 8300 11400 9300
 Wire Wire Line
 	10600 9300 11400 9300
+$Comp
+L Device:L L1
+U 1 1 66BF236E
+P 8150 7750
+F 0 "L1" V 8340 7750 50  0000 C CNN
+F 1 "CBC3225T470MR" V 8249 7750 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 8150 7750 50  0001 C CNN
+F 3 "~" H 8150 7750 50  0001 C CNN
+	1    8150 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 7750 8000 7750
+Wire Wire Line
+	8300 7750 9050 7750
 $EndSCHEMATC
