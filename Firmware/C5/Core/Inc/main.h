@@ -57,10 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define SSD1331_DC_Pin GPIO_PIN_3
-#define SSD1331_DC_GPIO_Port GPIOE
-#define SSD1331_RES_Pin GPIO_PIN_4
+#define SSD1331_RES_Pin GPIO_PIN_3
 #define SSD1331_RES_GPIO_Port GPIOE
+#define SSD1331_DC_Pin GPIO_PIN_4
+#define SSD1331_DC_GPIO_Port GPIOE
 #define SSD1331_CS_Pin GPIO_PIN_13
 #define SSD1331_CS_GPIO_Port GPIOC
 #define ESP_RST_Pin GPIO_PIN_2
@@ -69,12 +69,18 @@ void Error_Handler(void);
 #define STM_ESP_PIN1_GPIO_Port GPIOA
 #define STM_ESP_PIN2_Pin GPIO_PIN_4
 #define STM_ESP_PIN2_GPIO_Port GPIOA
-#define LSM303_INT_MAG_Pin GPIO_PIN_11
-#define LSM303_INT_MAG_GPIO_Port GPIOD
-#define LSM303_INT1_Pin GPIO_PIN_14
-#define LSM303_INT1_GPIO_Port GPIOD
-#define LSM303_INT2_Pin GPIO_PIN_15
-#define LSM303_INT2_GPIO_Port GPIOD
+#define LSM303_INT2_Pin GPIO_PIN_14
+#define LSM303_INT2_GPIO_Port GPIOE
+#define LSM303_INT1_Pin GPIO_PIN_15
+#define LSM303_INT1_GPIO_Port GPIOE
+#define LSM303_INT_MAG_Pin GPIO_PIN_12
+#define LSM303_INT_MAG_GPIO_Port GPIOB
+#define LED2_Pin GPIO_PIN_7
+#define LED2_GPIO_Port GPIOG
+#define LED1_Pin GPIO_PIN_8
+#define LED1_GPIO_Port GPIOG
+#define WS2812_Pin GPIO_PIN_6
+#define WS2812_GPIO_Port GPIOC
 #define VL53_INT_Pin GPIO_PIN_7
 #define VL53_INT_GPIO_Port GPIOC
 #define VL53_EN_Pin GPIO_PIN_8
