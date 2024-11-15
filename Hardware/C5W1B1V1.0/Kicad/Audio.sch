@@ -1,0 +1,316 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MP34DT05TR-A:MP34DT05TR-A MK1
+U 1 1 6737B988
+P 3800 2950
+F 0 "MK1" H 4400 3215 50  0000 C CNN
+F 1 "MP34DT05TR-A" H 4400 3124 50  0000 C CNN
+F 2 "Footprints:MP34DT05TRA" H 4850 3050 50  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c7/90/d3/f6/b7/e7/40/c8/DM00415595/files/DM00415595.pdf/jcr:content/translations/en.DM00415595.pdf" H 4850 2950 50  0001 L CNN
+F 4 "STMICROELECTRONICS - MP34DT05TR-A - MEMS MICROPHONE, 3.6V, HCLGA-4" H 4850 2850 50  0001 L CNN "Description"
+F 5 "1" H 4850 2750 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 4850 2650 50  0001 L CNN "Manufacturer_Name"
+F 7 "MP34DT05TR-A" H 4850 2550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MP34DT05TR-A" H 4850 2450 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mp34dt05tr-a/stmicroelectronics?region=europe" H 4850 2350 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67398763
+P 4400 2200
+AR Path="/665B4F23/67398763" Ref="C?"  Part="1" 
+AR Path="/6737B7AB/67398763" Ref="C77"  Part="1" 
+F 0 "C77" V 4500 1600 50  0000 L CNN
+F 1 "100n/16V/X5R" V 4400 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 2050 50  0001 C CNN
+F 3 "~" H 4400 2200 50  0001 C CNN
+	1    4400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67398B30
+P 4400 2400
+AR Path="/665B4F23/67398B30" Ref="C?"  Part="1" 
+AR Path="/6737B7AB/67398B30" Ref="C78"  Part="1" 
+F 0 "C78" V 4500 1800 50  0000 L CNN
+F 1 "1u/16V/X5R" V 4400 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 2250 50  0001 C CNN
+F 3 "~" H 4400 2400 50  0001 C CNN
+	1    4400 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 2200 4250 2400
+Wire Wire Line
+	4550 2200 4550 2400
+Wire Wire Line
+	4550 2400 4550 2450
+Connection ~ 4550 2400
+$Comp
+L power:GND #PWR0266
+U 1 1 673993EC
+P 4550 2450
+F 0 "#PWR0266" H 4550 2200 50  0001 C CNN
+F 1 "GND" H 4555 2277 50  0000 C CNN
+F 2 "" H 4550 2450 50  0001 C CNN
+F 3 "" H 4550 2450 50  0001 C CNN
+	1    4550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2200 4250 2050
+Connection ~ 4250 2200
+$Comp
+L power:+3V3 #PWR0267
+U 1 1 67399A5E
+P 4250 2050
+F 0 "#PWR0267" H 4250 1900 50  0001 C CNN
+F 1 "+3V3" H 4265 2223 50  0000 C CNN
+F 2 "" H 4250 2050 50  0001 C CNN
+F 3 "" H 4250 2050 50  0001 C CNN
+	1    4250 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2400 3250 2400
+Wire Wire Line
+	3250 2400 3250 3150
+Wire Wire Line
+	3250 3150 3800 3150
+Connection ~ 4250 2400
+Wire Wire Line
+	5000 2950 5000 3050
+Connection ~ 5000 3050
+Wire Wire Line
+	5000 3050 5000 3150
+Connection ~ 5000 3150
+Wire Wire Line
+	5000 3150 5000 3250
+Wire Wire Line
+	5000 3250 5000 3500
+Connection ~ 5000 3250
+$Comp
+L power:GND #PWR0268
+U 1 1 6739A625
+P 5000 3500
+F 0 "#PWR0268" H 5000 3250 50  0001 C CNN
+F 1 "GND" H 5005 3327 50  0000 C CNN
+F 2 "" H 5000 3500 50  0001 C CNN
+F 3 "" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 2950 0    50   Input ~ 0
+DFSDM_CLK
+$Comp
+L Device:R R?
+U 1 1 6739C6D2
+P 2800 3050
+AR Path="/665B4F23/6739C6D2" Ref="R?"  Part="1" 
+AR Path="/6737B7AB/6739C6D2" Ref="R34"  Part="1" 
+F 0 "R34" V 2593 3050 50  0000 C CNN
+F 1 "100k/5%/0.063W" V 2684 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2730 3050 50  0001 C CNN
+F 3 "~" H 2800 3050 50  0001 C CNN
+	1    2800 3050
+	0    1    1    0   
+$EndComp
+Text GLabel 2300 3050 0    50   Output ~ 0
+DFSDM_DATA
+Wire Wire Line
+	2950 3050 3800 3050
+Wire Wire Line
+	2300 3050 2650 3050
+Text Notes 2650 2800 0    50   ~ 0
+Can be \nconverted\n to 0R
+Wire Notes Line
+	2450 2550 3150 2550
+Wire Notes Line
+	3150 2550 3150 3200
+Wire Notes Line
+	3150 3200 2450 3200
+Wire Notes Line
+	2450 3200 2450 2550
+Wire Wire Line
+	3800 3250 3800 3600
+$Comp
+L power:GND #PWR0269
+U 1 1 6739E897
+P 3800 3600
+F 0 "#PWR0269" H 3800 3350 50  0001 C CNN
+F 1 "GND" H 3805 3427 50  0000 C CNN
+F 2 "" H 3800 3600 50  0001 C CNN
+F 3 "" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP34DT05TR-A:MP34DT05TR-A MK2
+U 1 1 673A3429
+P 8050 2900
+F 0 "MK2" H 8650 3165 50  0000 C CNN
+F 1 "MP34DT05TR-A" H 8650 3074 50  0000 C CNN
+F 2 "Footprints:MP34DT05TRA" H 9100 3000 50  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c7/90/d3/f6/b7/e7/40/c8/DM00415595/files/DM00415595.pdf/jcr:content/translations/en.DM00415595.pdf" H 9100 2900 50  0001 L CNN
+F 4 "STMICROELECTRONICS - MP34DT05TR-A - MEMS MICROPHONE, 3.6V, HCLGA-4" H 9100 2800 50  0001 L CNN "Description"
+F 5 "1" H 9100 2700 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 9100 2600 50  0001 L CNN "Manufacturer_Name"
+F 7 "MP34DT05TR-A" H 9100 2500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MP34DT05TR-A" H 9100 2400 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mp34dt05tr-a/stmicroelectronics?region=europe" H 9100 2300 50  0001 L CNN "Arrow Price/Stock"
+	1    8050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 673A342F
+P 8650 2150
+AR Path="/665B4F23/673A342F" Ref="C?"  Part="1" 
+AR Path="/6737B7AB/673A342F" Ref="C79"  Part="1" 
+F 0 "C79" V 8750 1550 50  0000 L CNN
+F 1 "100n/16V/X5R" V 8650 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8688 2000 50  0001 C CNN
+F 3 "~" H 8650 2150 50  0001 C CNN
+	1    8650 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 673A3435
+P 8650 2350
+AR Path="/665B4F23/673A3435" Ref="C?"  Part="1" 
+AR Path="/6737B7AB/673A3435" Ref="C80"  Part="1" 
+F 0 "C80" V 8750 1750 50  0000 L CNN
+F 1 "1u/16V/X5R" V 8650 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8688 2200 50  0001 C CNN
+F 3 "~" H 8650 2350 50  0001 C CNN
+	1    8650 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 2150 8500 2350
+Wire Wire Line
+	8800 2150 8800 2350
+Wire Wire Line
+	8800 2350 8800 2400
+Connection ~ 8800 2350
+$Comp
+L power:GND #PWR0270
+U 1 1 673A343F
+P 8800 2400
+F 0 "#PWR0270" H 8800 2150 50  0001 C CNN
+F 1 "GND" H 8805 2227 50  0000 C CNN
+F 2 "" H 8800 2400 50  0001 C CNN
+F 3 "" H 8800 2400 50  0001 C CNN
+	1    8800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2150 8500 2000
+Connection ~ 8500 2150
+$Comp
+L power:+3V3 #PWR0271
+U 1 1 673A3447
+P 8500 2000
+F 0 "#PWR0271" H 8500 1850 50  0001 C CNN
+F 1 "+3V3" H 8515 2173 50  0000 C CNN
+F 2 "" H 8500 2000 50  0001 C CNN
+F 3 "" H 8500 2000 50  0001 C CNN
+	1    8500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2350 7500 2350
+Wire Wire Line
+	7500 2350 7500 3100
+Wire Wire Line
+	7500 3100 8050 3100
+Connection ~ 8500 2350
+Wire Wire Line
+	9250 2900 9250 3000
+Connection ~ 9250 3000
+Wire Wire Line
+	9250 3000 9250 3100
+Connection ~ 9250 3100
+Wire Wire Line
+	9250 3100 9250 3200
+Wire Wire Line
+	9250 3200 9250 3450
+Connection ~ 9250 3200
+$Comp
+L power:GND #PWR0272
+U 1 1 673A3458
+P 9250 3450
+F 0 "#PWR0272" H 9250 3200 50  0001 C CNN
+F 1 "GND" H 9255 3277 50  0000 C CNN
+F 2 "" H 9250 3450 50  0001 C CNN
+F 3 "" H 9250 3450 50  0001 C CNN
+	1    9250 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 2900 0    50   Input ~ 0
+DFSDM_CLK
+$Comp
+L Device:R R?
+U 1 1 673A345F
+P 7050 3000
+AR Path="/665B4F23/673A345F" Ref="R?"  Part="1" 
+AR Path="/6737B7AB/673A345F" Ref="R35"  Part="1" 
+F 0 "R35" V 6843 3000 50  0000 C CNN
+F 1 "100k/5%/0.063W" V 6934 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6980 3000 50  0001 C CNN
+F 3 "~" H 7050 3000 50  0001 C CNN
+	1    7050 3000
+	0    1    1    0   
+$EndComp
+Text GLabel 6550 3000 0    50   Output ~ 0
+DFSDM_DATA
+Wire Wire Line
+	7200 3000 8050 3000
+Wire Wire Line
+	6550 3000 6900 3000
+Text Notes 6900 2750 0    50   ~ 0
+Can be \nconverted\n to 0R
+Wire Notes Line
+	6700 2500 7400 2500
+Wire Notes Line
+	7400 2500 7400 3150
+Wire Notes Line
+	7400 3150 6700 3150
+Wire Notes Line
+	6700 3150 6700 2500
+Wire Wire Line
+	8050 3200 8050 3550
+Wire Wire Line
+	8050 3550 7600 3550
+Wire Wire Line
+	7600 3550 7600 3300
+$Comp
+L power:+3V3 #PWR0273
+U 1 1 673A4E1A
+P 7600 3300
+F 0 "#PWR0273" H 7600 3150 50  0001 C CNN
+F 1 "+3V3" H 7615 3473 50  0000 C CNN
+F 2 "" H 7600 3300 50  0001 C CNN
+F 3 "" H 7600 3300 50  0001 C CNN
+	1    7600 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -17,4 +17,5 @@
   (lib (name SRN6045TA-101M)(type Legacy)(uri ${KIPRJMOD}/Libraries/SRN6045TA-101M.lib)(options "")(descr ""))
   (lib (name LD39200PU33R)(type Legacy)(uri ${KIPRJMOD}/Libraries/LD39200PU33R.lib)(options "")(descr ""))
   (lib (name RBR10BM60AFHTL)(type Legacy)(uri ${KIPRJMOD}/Libraries/RBR10BM60AFHTL.lib)(options "")(descr ""))
+  (lib (name MP34DT05TR-A)(type Legacy)(uri ${KIPRJMOD}/Libraries/MP34DT05TR-A.lib)(options "")(descr ""))
 )

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -76,12 +76,8 @@ Text GLabel 3100 5050 1    50   BiDi ~ 0
 PF15
 Text GLabel 3000 5050 1    50   BiDi ~ 0
 PG0
-Text GLabel 2600 5050 1    50   BiDi ~ 0
-PE9
 Text GLabel 2700 5050 1    50   BiDi ~ 0
 PE8
-Text GLabel 2800 5050 1    50   BiDi ~ 0
-PE7
 Text GLabel 2900 5050 1    50   BiDi ~ 0
 PG1
 Text GLabel 2500 5050 1    50   BiDi ~ 0
@@ -350,8 +346,6 @@ Wire Wire Line
 	3700 3450 3600 3450
 Wire Wire Line
 	3450 3950 3450 3850
-Text GLabel 3500 6400 1    50   Input ~ 0
-5V_USB
 $Comp
 L power:+5V #PWR0173
 U 1 1 673CCFBC
@@ -361,6 +355,47 @@ F 1 "+5V" H 3465 4023 50  0000 C CNN
 F 2 "" H 3450 3850 50  0001 C CNN
 F 3 "" H 3450 3850 50  0001 C CNN
 	1    3450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5050 2600 4350
+$Comp
+L power:+3V3 #PWR0264
+U 1 1 6748E99D
+P 2600 4350
+F 0 "#PWR0264" H 2600 4200 50  0001 C CNN
+F 1 "+3V3" H 2615 4523 50  0000 C CNN
+F 2 "" H 2600 4350 50  0001 C CNN
+F 3 "" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5050 2800 4300
+Wire Wire Line
+	2800 4300 2900 4300
+Wire Wire Line
+	2900 4300 2900 4450
+$Comp
+L power:GND #PWR0265
+U 1 1 6749062B
+P 2900 4450
+F 0 "#PWR0265" H 2900 4200 50  0001 C CNN
+F 1 "GND" H 2905 4277 50  0000 C CNN
+F 2 "" H 2900 4450 50  0001 C CNN
+F 3 "" H 2900 4450 50  0001 C CNN
+	1    2900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 676048BF
+P 3500 6400
+F 0 "#PWR?" H 3500 6250 50  0001 C CNN
+F 1 "+5V" H 3515 6573 50  0000 C CNN
+F 2 "" H 3500 6400 50  0001 C CNN
+F 3 "" H 3500 6400 50  0001 C CNN
+	1    3500 6400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

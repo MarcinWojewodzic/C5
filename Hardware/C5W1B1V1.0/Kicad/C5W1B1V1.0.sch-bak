@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -54,5 +54,11 @@ S 2700 2800 1400 1500
 U 676EAB19
 F0 "ESP" 50
 F1 "ESP.sch" 50
+$EndSheet
+$Sheet
+S 4450 2800 1650 1500
+U 6737B7AB
+F0 "Audio" 50
+F1 "Audio.sch" 50
 $EndSheet
 $EndSCHEMATC

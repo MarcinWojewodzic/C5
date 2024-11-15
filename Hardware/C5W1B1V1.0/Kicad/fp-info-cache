@@ -1,64 +1,120 @@
-14725277803319
-TerminalBlock
-TerminalBlock_Altech_AK300-2_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
+29388061721607
+Footprints
+2169900003
+216990-0003-1
+Connector
 0
-2
-2
-TerminalBlock
-TerminalBlock_Altech_AK300-3_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
+16
+16
+Footprints
+BME688
+BME688-8
+Integrated Circuit
 0
-3
-3
-TerminalBlock
-TerminalBlock_Altech_AK300-4_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
-0
-4
-4
-TerminalBlock
-TerminalBlock_Wuerth_691311400102_P7.62mm
-https://katalog.we-online.de/em/datasheet/6913114001xx.pdf
-Wuerth WR-TBL Series 3114 terminal block pitch 7.62mm
-0
-2
-2
-TerminalBlock
-TerminalBlock_bornier-2_P5.08mm
-simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
-terminal block bornier2
-0
-2
-2
-TerminalBlock
-TerminalBlock_bornier-3_P5.08mm
-simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
-terminal block bornier3
-0
-3
-3
-TerminalBlock
-TerminalBlock_bornier-4_P5.08mm
-simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4
-terminal block bornier4
+8
+8
+Footprints
+ECS250836CKMTR3
+ECS-250-8-36CKM-TR3-2
+Crystal or Oscillator
 0
 4
 4
-TerminalBlock
-TerminalBlock_bornier-5_P5.08mm
-simple 5-pin terminal block, pitch 5.08mm, revamped version of bornier5
-terminal block bornier5
+Footprints
+ECS327617XCTR
+ECS-.327-6-17X-C-TR-1
+Crystal or Oscillator
 0
-5
-5
-TerminalBlock
-TerminalBlock_bornier-6_P5.08mm
-simple 6pin terminal block, pitch 5.08mm, revamped version of bornier6
-terminal block bornier6
+4
+4
+Footprints
+ESP32C3WROOM02N4
+ESP32-C3-WROOM-02-N4-1
+Integrated Circuit
+0
+27
+27
+Footprints
+GCT_USB4105GFA120
+
+
+0
+16
+16
+Footprints
+LGA-12
+LGA-12
+Accelerometer
+0
+12
+12
+Footprints
+LGA12_1
+LGA12_1
+Undefined or Miscellaneous
+0
+12
+12
+Footprints
+MP34DT05TRA
+HCLGA (3 x 4 x 1 mm)
+Microphone
+0
+8
+8
+Footprints
+QFP50P2600X2600X160-176N
+LQFP 176 24x24x1.4 mm-4
+Integrated Circuit
+0
+176
+176
+Footprints
+RD3P175SNFRATL
+TO-252 (DPAK)_Master
+Schottky Diode
+0
+3
+3
+Footprints
+SOIC127P600X175-8N
+FPT-8P-M02
+Integrated Circuit
+0
+8
+8
+Footprints
+SON95P300X300X80-7N
+NGG0006A+-
+Integrated Circuit
+0
+7
+7
+Footprints
+SON95P300X300X100-7N-D
+DFN6 (3x3)
+Integrated Circuit
+0
+7
+7
+Footprints
+SON127P800X600X80-9N-D
+WSON 8x6-mm
+Integrated Circuit
+0
+9
+9
+Footprints
+SRN6045TA220M
+SRN6045TA_2
+Inductor
+0
+2
+2
+Footprints
+USBLC62P6
+USBLC6-2P6-3
+Integrated Circuit
 0
 6
 6
